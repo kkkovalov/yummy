@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+.page{
+    background-image: url(https://coursetro.s3.amazonaws.com/tutorial_images/bg.jpg);
+    background-position: 10% 80%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+header{
+    padding: 1.2em 0 3em;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 span{
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1 span::before{
+    content: '';
+    width: 4em;
+    height: .4em;
+    bottom: 0;
+    position: absolute;
+    background: #00BFFF;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.top-page h1{
+    font-size: 2.4rem;
+    padding: 0 0 1em 0;
+}
+
+.top-page p{
+    font-weight: bold;
+    margin: 0 1em 3em;
+    line-height: 2em;
+}
+
+.form{
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+.form label{
+    color: #2D7D98;
+    display: block;
+    padding: 1.5em;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input[type=text]{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: .5em;
+    padding: 1em 0em;
+}
+
+button{
+    width: 80%;
+    background-color: orange;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .5em;
+    padding: 1em 0;
+}
+
+.form p{
+    color: grey;
+    font-weight: 400;
+    padding-top: .2em;
+}
+
+button:hover{
+    background-color: rgb(205, 133, 0);
+    cursor: pointer;
+}
+
+.desc-right h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1.2em;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.desc-right h3::before{
+    content: '';
+    width: 7em;
+    height: .4em;
+    bottom: 0;
+    position: absolute;
+    background: #00BFFF;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.desc-right p{
+    line-height: 2rem;
+    padding: 0 1.2em;
+    text-align: center;
+}
+
+.desc-left img{
+    width: 100%;
+}
